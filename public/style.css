@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #fff;
+
+}
+.chat-section{
+    width: 800px;
+    max-width: 90%;
+    background: cyan;
+    box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1);
+}
+.brand{
+    padding: 20px;
+    background: seashell;
+    display: flex;
+    align-items: center;
+}
+.brand img{
+    height: 50px;
+    width: 50px;
+}
+.brand h4{
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #444;
+    margin-left: 10px;
+}
+.massage_area{
+    height: 500px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    padding-top: 40px;
+}
+textarea{
+    width: 100%;
+    border: none;
+    padding: 20px;
+    font-size: 16px;
+    outline: none;
+    background: rgb(235, 201, 201);
+}
+.message{
+    padding: 20px;
+    border-radius: 4px;
+    margin-bottom: 40px;
+    max-width: 300px;
+    position: relative;
+}
+.incoming{
+    background: rgb(187, 109, 218);
+    color: #fff;
+}
+.outgoing{
+    background: #fff;
+    color: rgb(182, 120, 28);
+    margin-left: auto;
+}
+.message h4{
+    position: absolute;
+    top: -20px;
+    left: 0;
+    color: #333;
+    font-size: 14px;
+}
